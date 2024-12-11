@@ -1,0 +1,152 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #003366; /* UA Dark Blue */
+    color: white;
+    padding: 10px 0;
+}
+
+/* Header styling */
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    text-align: center;  /* Ensures text alignment */
+    margin-bottom: 20px;
+}
+
+/* Logo styling */
+.logo-container {
+    margin-bottom: 10px; /* Space between logo and navigation */
+}
+
+.logo {
+    max-width: 600px; /* Ensures logo is appropriately sized */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Navigation styling */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centers links */
+    gap: 20px; /* Adds spacing between links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000; /* Set link color */
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+.site-title {
+    font-size: 1.8rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Main Article */
+main {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.article-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #003366;
+}
+
+.article-meta {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.article-image {
+    display: block; /* Ensures it behaves like a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+    width: 60%; /* Retain the existing width */
+    height: auto;
+    margin-bottom: 20px; /* Keep spacing below the image */
+}
+
+
+.article-content p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
