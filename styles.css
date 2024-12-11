@@ -116,9 +116,17 @@ main {
 
 
 .article-content p {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     font-size: 1.1rem;
     line-height: 1.8;
+}
+
+/* Block quote styling */
+.article-content p em {
+    display: block; /* Ensures the block quote behaves like a block */
+    margin: 0 40px; /* Adds indentation on both sides */
+    font-style: italic; /* Ensures the quote stays italicized */
+    color: #555; /* Optional: Light gray text for emphasis */
 }
 
 /* Footer */
